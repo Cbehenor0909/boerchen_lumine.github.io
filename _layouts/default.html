@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>boerchen's personal website, lumine chaser</title>
+		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -15,10 +15,9 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>lumine chaser</h1>
-				<p>Hi! Here is Boer Chen. This is my personal page. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
+    		
+		{{ content }}
+			
 		</div><!-- /.container -->
 		<footer>
     		<ul>
