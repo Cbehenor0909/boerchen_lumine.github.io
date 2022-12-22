@@ -3,9 +3,9 @@ layout: default
 title: About my life
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="abouts">
+	<ul class="about">
 
 	  {% for post in site.posts %}
-	    <li><span>{{ abouts.date | date_to_string }}</span> » <a href="{{ abouts.url }}" title="{{ abouts.title }}">{{ abouts.title }}</a></li>
+	    <li><span>{{ about.date | date_to_string }}</span> » <a href="{{ about.url }}" title="{{ about.title }}">{{ about.title }}</a></li>
 	  {% endfor %}
 	</ul>
